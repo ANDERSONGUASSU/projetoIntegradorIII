@@ -72,40 +72,41 @@ include 'inc/menu.php'
                             <label class="custom-control-label" for="<18">Até 18 anos</label>
                         </div>
                         <div class="card-header border-0">
-                            <h3 class="mb-2">Qual setor precisa mais de investimento?</h3>
+                            <h3 class="mb-2">Qual item das opções precisa de mais atenção no seu bairro?</h3>
                         </div>
                         <div class="custom-control custom-radio">
-                            <input type="radio" id="saude" name="pesquisaGeral" value="SAÚDE" class="custom-control-input">
-                            <label class="custom-control-label" for="saude">Saúde</label>
+                            <input type="radio" id="coleta_de_lixo" name="pesquisaGeral" value="COLETA DE LIXO" class="custom-control-input">
+                            <label class="custom-control-label" for="coleta_de_lixo">Coleta de Lixo</label>
                         </div>
                         <div class="custom-control custom-radio">
-                            <input type="radio" id="cultura" name="pesquisaGeral" value="CULTURA" class="custom-control-input">
-                            <label class="custom-control-label" for="cultura">Cultura</label>
+                            <input type="radio" id="limpeza_de_terrenos" name="pesquisaGeral" value="LIMPEZA DE TERRENOS" class="custom-control-input">
+                            <label class="custom-control-label" for="limpeza_de_terrenos">Limpeza de Terrenos</label>
                         </div>
                         <div class="custom-control custom-radio">
-                            <input type="radio" id="educacao" name="pesquisaGeral" value="EDUCAÇÃO" class="custom-control-input">
-                            <label class="custom-control-label" for="educacao">Educação</label>
+                            <input type="radio" id="limpeza_da_via_pública" name="pesquisaGeral" value="LIMPEZA DA VIA PÚBLICA" class="custom-control-input">
+                            <label class="custom-control-label" for="limpeza_da_via_pública">Limpeza da Via Pública</label>
                         </div>
                         <div class="custom-control custom-radio">
-                            <input type="radio" id="lazer" name="pesquisaGeral" value="LAZER" class="custom-control-input">
-                            <label class="custom-control-label" for="lazer">Lazer</label>
+                            <input type="radio" id="guarda_municipal" name="pesquisaGeral" value="GUARDA MUNICIPAL" class="custom-control-input">
+                            <label class="custom-control-label" for="guarda_municipal">Guarda Municipal</label>
                         </div>
                         <div class="custom-control custom-radio">
-                            <input type="radio" id="turismo" name="pesquisaGeral" value="TURISMO" class="custom-control-input">
-                            <label class="custom-control-label" for="turismo">Turismo</label>
+                            <input type="radio" id="abastecimento_de_agua" name="pesquisaGeral" value="ABASTECIMENTO DE ÁGUA" class="custom-control-input">
+                            <label class="custom-control-label" for="abastecimento_de_agua">Abastecimento de Água</label>
                         </div>
                         <div class="custom-control custom-radio">
-                            <input type="radio" id="esporte" name="pesquisaGeral" value="ESPORTE" class="custom-control-input">
-                            <label class="custom-control-label" for="esporte">Esporte</label>
+                            <input type="radio" id="imuminacao_publica" name="pesquisaGeral" value="ILUMINAÇÃO PÚBLICA" class="custom-control-input">
+                            <label class="custom-control-label" for="imuminacao_publica">Iluminação Pública</label>
                         </div>
                         <div class="custom-control custom-radio">
-                            <input type="radio" id="meio_ambiente" name="pesquisaGeral" value="MEIO AMBIENTE" class="custom-control-input">
-                            <label class="custom-control-label" for="meio_ambiente">Meio Ambiente</label>
+                            <input type="radio" id="areas_de_lazer" name="pesquisaGeral" value="ÁREAS DE LAZER" class="custom-control-input">
+                            <label class="custom-control-label" for="areas_de_lazer">Áreas de lazer</label>
                         </div>
                         <div class="custom-control custom-radio">
-                            <input type="radio" id="assistencia_social" name="pesquisaGeral" value="ASSISTENCIA SOCIAL" class="custom-control-input">
-                            <label class="custom-control-label" for="assistencia_social">Assistência Social</label>
+                            <input type="radio" id="recapeamento_das_ruas" name="pesquisaGeral" value="RECAPEAMENTO ASFALTICO" class="custom-control-input">
+                            <label class="custom-control-label" for="recapeamento_das_ruas">Recapemento Asfaltico</label>
                         </div>
+                        
                         <div class="card-footer py-4">
                             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                                 <input type="submit" class="btn btn-outline-primary" onclick="Enviar();" value="Enviar Pesquisa">
